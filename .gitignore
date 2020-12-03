@@ -14,6 +14,6 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
-models/
-data/processed
-data/raw
+models/*
+data/*
+!data/.gitkeep
