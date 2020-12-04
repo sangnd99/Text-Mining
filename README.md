@@ -11,6 +11,8 @@ $ pip install -r requirements.txt
 ```
 
 **Sau khi cài đặt ta chạy lần lượt những lệnh sau để huấn luyện mô hình**
+
+**_(Lưu ý: Thêm dữ liệu huấn luyện vào thư mục raw)_**
 ```
 $ python src/data/data_preprocessing.py -i [INPUT_RAW_DATA] -o [OUTPUT_PREPROCESSED_DATA]
 $ python src/models/train_rf_model.py -i [INPUT_PREPROCESSED_DATA] -o [OUTPUT_MODEL]
